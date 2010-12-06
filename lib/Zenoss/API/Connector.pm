@@ -188,14 +188,14 @@ The password to log in with at the Zenos instance
 =head2 url
 
 The url to be used in establishing a connection to the Zenoss instance.  Note,
-that ports in the http(s) url are not required unless they're non stanard.  For
+that ports in the http(s) url are not required unless they're non-stanard.  For
 example the url can be set to:
 
 http://zenossinstance
 
 https://zenossinstance
 
-Without having to specify :80 or :443.  However, nonstandard ports must be specified!
+Without having to specify :80 or :443.  However, non-standard ports must be specified!
 Zenoss by default uses :8080, so this must be specified on the url if your instance
 uses this.
 

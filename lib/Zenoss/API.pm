@@ -5,7 +5,7 @@ use Moose;
 use Zenoss::API::Connector;
 use Zenoss::API::Router;
 
-our $VERSION = '1.0';
+our $VERSION = '1.01';
 
 #**************************************************************************
 # Public methods
@@ -56,7 +56,7 @@ Zenoss::API - Perl interface to the Zenoss JSON API
     my $api = Zenoss::API->connect(
         {
             username    => 'admin',
-            password    => 'zenoss,
+            password    => 'zenoss',
             url         => 'http://zenossinstance:8080',
         }
     );

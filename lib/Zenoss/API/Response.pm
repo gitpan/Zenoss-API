@@ -70,7 +70,7 @@ Zenoss::API::Response - Handles responses from Zenoss::API::Router
     my $api = Zenoss::API->connect(
         {
             username    => 'admin',
-            password    => 'zenoss,
+            password    => 'zenoss',
             url         => 'http://zenossinstance:8080',
         }
     );
@@ -86,7 +86,7 @@ Zenoss::API::Response - Handles responses from Zenoss::API::Router
     # get the response in hashref form
     my $response_hash = $response->hash();
     print Dumper $response_hash;
-    
+
 =head1 DESCRIPTION
 
 This class is NOT instantiated directly.  When the Zenoss API issues a response

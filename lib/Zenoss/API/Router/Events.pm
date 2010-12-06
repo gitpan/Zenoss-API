@@ -356,7 +356,7 @@ __END__
 
 =head1 NAME
 
-Zenoss::API::Router::Zenpack - A JSON/ExtDirect interface to operations on ZenPacks
+Zenoss::API::Router::Events - A JSON/ExtDirect interface to operations on events
 
 =head1 SYNOPSIS
 
