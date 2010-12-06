@@ -1,0 +1,24 @@
+Changes
+lib/Zenoss/API.pm
+lib/Zenoss/API/Connector.pm
+lib/Zenoss/API/Error.pm
+lib/Zenoss/API/MetaHelper.pm
+lib/Zenoss/API/Response.pm
+lib/Zenoss/API/Router.pm
+lib/Zenoss/API/Router/DetailNav.pm
+lib/Zenoss/API/Router/Device.pm
+lib/Zenoss/API/Router/Events.pm
+lib/Zenoss/API/Router/Messaging.pm
+lib/Zenoss/API/Router/Mib.pm
+lib/Zenoss/API/Router/Network.pm
+lib/Zenoss/API/Router/Process.pm
+lib/Zenoss/API/Router/Report.pm
+lib/Zenoss/API/Router/Service.pm
+lib/Zenoss/API/Router/Template.pm
+lib/Zenoss/API/Router/Tree.pm
+lib/Zenoss/API/Router/ZenPack.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+README
+t/Zenoss-API.t
