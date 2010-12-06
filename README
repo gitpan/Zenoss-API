@@ -28,7 +28,7 @@ This module requires these other modules and libraries:
 
     Carp
     JSON
-    MOOSE
+    Moose
     File::Find
     File::Basename
     LWP::UserAgent

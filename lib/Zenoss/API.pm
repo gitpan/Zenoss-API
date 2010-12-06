@@ -5,7 +5,7 @@ use Moose;
 use Zenoss::API::Connector;
 use Zenoss::API::Router;
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 #**************************************************************************
 # Public methods

@@ -7,7 +7,7 @@ WriteMakefile(
     PREREQ_PM         => {
         Carp                    => 0,
         JSON                    => 2.0,
-        MOOSE                   => 1.0,
+        Moose                   => 1.0,
         'File::Find'            => 0,
         'File::Basename'        => 0,
         'LWP::UserAgent'        => 0,

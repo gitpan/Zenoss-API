@@ -10,4 +10,7 @@ Revision history for Zenoss-API
 1.02        Mon Dec  6 12:54:23 EST 2010
             - Fixed some more documentation issues
             - Added some additional documentation
+
+1.03        Mon Dec  6 15:36:24 EST 2010
+            - Changed MOOSE to Moose for prerequisites
     
