@@ -1320,7 +1320,7 @@ Zenoss::API::Router::Device - A JSON/ExtDirect interface to operations on device
     );
 
     # Replace SOMEMETHOD() with one of the available methods provided by this package
-    my $response = $api->zenoss->device_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->device_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 

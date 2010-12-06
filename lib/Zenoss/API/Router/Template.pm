@@ -1004,7 +1004,7 @@ Zenoss::API::Router::Template - A JSON/ExtDirect interface to operations on temp
     );
 
     # Replace SOMEMETHOD() with one of the available methods provided by this package
-    my $response = $api->zenoss->template_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->template_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 

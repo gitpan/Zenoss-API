@@ -5,7 +5,7 @@ use Moose;
 use Zenoss::API::Connector;
 use Zenoss::API::Router;
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 #**************************************************************************
 # Public methods
@@ -185,16 +185,50 @@ Here are some notes regarding this interface.
 
 =head2 Zenoss JSON API Attributes
 
+=head3 Attributes in methods
+
 When calling the various router methods available, note that any attribute you submit will be
 converted to JSON and transmitted to the API.
 
 For example:
     $api->device_getDevices({foo => 'bar'});
 
-The above code will transmit an attribute of foo with a value of bar to the API.
+The above code will transmit an attribute, in JSON, of foo with a value of bar to the API.
 
 Its also interesting to point out that each router method has an attribute definition.  If you
 attempt to call a method that requires a specific attribute, and its omitted, it will croak.
+
+=head3 JSON true, false, null
+
+In the event that you need to use a true, false or null, the value can be submitted with:
+
+=over
+
+=item *
+
+JSON::true
+
+=item *
+
+JSON::false
+
+=item *
+
+JSON::null
+
+=back
+
+For sake of clarity, say we need to add a device, but we want to also want to model the device
+after the add.  Reading L<Zenoss::API::Router::Device> states that $obj->device_addDevice()
+has a parameter of 'model', which is a boolean.  With that said we can do the following:
+
+    my $response = $api->device_addDevice(
+        {
+            deviceName  => 'testdevice',
+            deviceClass => '/Server/Linux',
+            model       => JSON::true,
+        }
+    );
 
 =head2 Error handling
 

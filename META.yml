@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Zenoss-API
-version:            1.01
+version:            1.02
 abstract:           Perl interface to the Zenoss JSON API
 author:
     - Patrick Baker <patricksbaker@gmail.com>

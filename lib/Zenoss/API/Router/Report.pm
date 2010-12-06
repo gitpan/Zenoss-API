@@ -179,7 +179,7 @@ Zenoss::API::Router::Report - A JSON/ExtDirect interface to operations on report
     );
 
     # Replace SOMEMETHOD() with one of the available methods provided by this package
-    my $response = $api->zenoss->report_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->report_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 

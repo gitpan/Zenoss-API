@@ -237,7 +237,7 @@ Zenoss::API::Router::Process - A JSON/ExtDirect interface to operations on proce
     );
 
     # Replace SOMEMETHOD() with one of the available methods provided by this package
-    my $response = $api->zenoss->process_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->process_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 

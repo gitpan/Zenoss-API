@@ -241,7 +241,7 @@ Zenoss::API::Router::Network - A JSON/ExtDirect interface to operations on netwo
     );
 
     # Replace SOMEMETHOD() with one of the available methods provided by this package
-    my $response = $api->zenoss->network_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->network_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 

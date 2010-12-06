@@ -322,7 +322,7 @@ Zenoss::API::Router::Service - A JSON/ExtDirect interface to operations on servi
     );
 
     # Replace SOMEMETHOD() with one of the available methods provided by this package
-    my $response = $api->zenoss->service_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->service_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 

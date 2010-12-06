@@ -122,7 +122,7 @@ Zenoss::API::Router::Tree - A common base class for routers that have a hierarch
 
     # Replace router and SOMEMETHOD() with one of the available methods provided by this package.
     # Note, that router will be replaced with something like device, network, process, etc
-    my $response = $api->zenoss->router_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->router_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 

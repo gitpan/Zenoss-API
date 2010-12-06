@@ -123,7 +123,7 @@ Zenoss::API::Router::DetailNav - Router to Details navigation for given uid
     );
 
     # Replace SOMEMETHOD() with one of the available methods provided by this package
-    my $response = $api->zenoss->detailnav_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
+    my $response = $api->detailnav_SOMEMETHOD({parameter1 => 'value', parameter2 => 'value'});
 
 =head1 DESCRIPTION
 
